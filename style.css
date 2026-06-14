@@ -1,0 +1,199 @@
+body {
+    background-color: #f4f4f4;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.player {
+    background: white;
+    padding: 20px;
+    border-radius: 15px;
+    text-align: center;
+    width: 300px;
+}
+
+.player {
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.player img {
+    width: 220px;
+    height: 220px;
+    border-radius: 15px;
+    object-fit: cover;
+}
+
+.player h2 {
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+.player p {
+    color: gray;
+    margin-bottom: 20px;
+}
+
+button {
+    padding: 10px 15px;
+    margin: 5px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+button:hover {
+    transform: scale(1.1);
+}
+
+.player img:hover {
+    transform: scale(1.05);
+}
+
+.player img {
+    width: 220px;
+    height: 220px;
+    border-radius: 15px;
+    object-fit: cover;
+    transition: 0.3s;
+}
+
+
+.progress-container {
+    width: 180px;
+    height: 8px;
+    background-color: #ddd;
+    border-radius: 10px;
+}
+
+.progress {
+    width: 30%;
+    height: 100%;
+    background-color: black;
+    border-radius: 10px;
+}
+
+.time-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.progress-container {
+    width: 180px;
+}
+
+.volume-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 15px;
+}
+
+#volumeSlider {
+    width: 100px;
+}
+
+#playlist {
+    margin-top: 20px;
+    text-align: left;
+}
+
+.song-item {
+    padding: 8px;
+    margin: 5px 0;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+.song-item:hover {
+    background-color: #e5e5e5;
+}
+
+.song-item.active {
+    background: #222;
+    color: white;
+    font-weight: bold;
+    transform: scale(1.02);
+    transition: 0.2s;
+}
+
+button:active {
+    transform: scale(0.9);
+}
+
+.heart {
+    float: right;
+    cursor: pointer;
+    font-size: 18px;
+    transition: 0.2s;
+}
+
+.heart:hover {
+    transform: scale(1.2);
+}
+
+.heart.active {
+    color: red;
+}
+
+body.dark {
+    background-color: #111;
+    color: white;
+}
+
+body.dark .player {
+    background: #1e1e1e;
+    color: white;
+}
+
+body.dark .song-item {
+    color: white;
+    background: #2a2a2a;
+}
+
+body.dark .song-item:hover {
+    background: #3a3a3a;
+}
+
+body.dark .progress-container {
+    background-color: #444;
+}
+
+body.dark .progress {
+    background-color: #1db954;
+}
+
+#search {
+    width: 90%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    outline: none;
+}
+
+button {
+    background: #f0f0f0;
+    transition: 0.2s ease;
+}
+
+button:hover {
+    background: #ddd;
+}
+
+#favBtn,
+#darkBtn {
+    font-size: 14px;
+    padding: 6px 10px;
+    border-radius: 6px;
+}

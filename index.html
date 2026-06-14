@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Music Player</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="player">
+
+        <!-- SEARCH BAR 🔎 -->
+        <input id="search" placeholder="Search songs...">
+
+        <!-- DARK + FAVORITE BUTTONS -->
+        <div style="margin:10px 0;">
+            <button id="favBtn">Favorites</button>
+            <button id="darkBtn">Dark Mode</button>
+        </div>
+
+        <!-- COVER IMAGE -->
+        <img id="coverImage" src="images/sidhu.jpg" alt="Song Cover">
+
+        <!-- SONG INFO -->
+        <h2 id="songTitle">295</h2>
+        <p id="artist">Sidhu Moose Wala</p>
+
+        <!-- CONTROLS -->
+        <button id="prev">⏮</button>
+        <button id="play">▶</button>
+        <button id="next">⏭</button>
+
+        <!-- PROGRESS -->
+        <div class="time-container">
+
+            <span id="currentTime">00:00</span>
+
+            <div class="progress-container">
+                <div id="progress" class="progress"></div>
+            </div>
+
+            <span id="duration">03:30</span>
+
+        </div>
+
+        <!-- VOLUME -->
+        <div class="volume-container">
+            <span>🔊</span>
+            <input id="volumeSlider" type="range" min="0" max="100" value="20">
+        </div>
+
+    </div>
+
+    <!-- PLAYLIST -->
+    <div id="playlist"></div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
