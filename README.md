@@ -3,7 +3,7 @@
 
 A responsive and interactive Music Player built using HTML, CSS, and JavaScript as part of the Frontend Development Internship at CodeAlpha.
 
-## 🚀 Features
+##  Features
 
 * ▶ Play and Pause Songs
 * ⏮ Previous Song Navigation
@@ -19,7 +19,7 @@ A responsive and interactive Music Player built using HTML, CSS, and JavaScript 
 * 🔄 Auto Play Next Song
 * 📱 Responsive User Interface
 
-## 🛠 Technologies Used
+##  Technologies Used
 
 * HTML5
 * CSS3
@@ -28,13 +28,19 @@ A responsive and interactive Music Player built using HTML, CSS, and JavaScript 
 ## 📂 Project Structure
 
 CodeAlpha_MusicPlayer/
+
 │
+
 ├── index.html
+
 ├── style.css
+
 ├── script.js
+
 ├── images/
+
 ├── songs/
-└── README.md
+
 
 ## 🎯 How to Use
 
@@ -49,11 +55,11 @@ CodeAlpha_MusicPlayer/
 
 ## 🌐 Live Demo
 
-[[Add Your Netlify Link Here]](https://ashi-music.netlify.app/)
+https://ashi-music.netlify.app/
 
-## 📌 GitHub Repository
+##  GitHub Repository
 
-[Add Your GitHub Repository Link Here]
+https://github.com/Ashi-codes/CodeAlpha_MusicPlayer.git
 
 ## 👩‍💻 Developed By
 
